@@ -1,0 +1,89 @@
+{% extends "baseTemplate.html" %}	
+{% block content %}
+<!-- profiles start -->
+<section id="profiles" class="profiles">
+	<div class="profiles-details">
+		<div class="section-heading text-center">
+			<h2>Profiles</h2>
+		</div>
+		<div class="container">
+			<div class="profiles-content">
+				<div class="row">
+					<!-- GitHub Profile Card -->
+					<div class="col-sm-6">
+						<a href="https://github.com/amankumar1019" target="_blank">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<img src="{{url_for('static', filename='assets/images/profile_flaticons/github.svg')}}" width="40rem" height="40rem" alt="GeeksForGeeks" class="flaticon">
+									<div class="profile-icon-name">GitHub</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<img src="{{url_for('static', filename='assets/images/profile_flaticons/github.svg')}}" width="80rem" height="80rem" alt="GeeksForGeeks" class="flaticon">
+										<div class="profile-icon-name">GitHub</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>							
+					<!-- GeeksForGeeks Profile Card -->
+					<div class="col-sm-6">
+						<a href="https://auth.geeksforgeeks.org/user/2019kucp1034/practice" target="_blank">
+							<div class="single-profile profile-no-border">
+								<div class="profile-txt">
+									<img src="{{url_for('static', filename='assets/images/profile_flaticons/geeksforgeeks.svg')}}" width="40rem" height="40rem" alt="GeeksForGeeks" class="flaticon">
+									<div class="profile-icon-name">GeeksForGeeks</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<img src="{{url_for('static', filename='assets/images/profile_flaticons/geeksforgeeks.svg')}}"  width="80rem" height="80rem" alt="GeeksForGeeks" class="flaticon">
+										<div class="profile-icon-name">GeeksForGeeks</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="profile-border"></div>
+				<div class="row">
+					<!-- CodeForces Profile Card -->
+					<div class="col-sm-6">
+						<a href="https://codeforces.com/profile/AM_PHANTOM_07" target="_blank">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<img src="{{url_for('static', filename='assets/images/profile_flaticons/codeforces.svg')}}" width="40rem" height="40rem" alt="Codeforces" class="flaticon">
+									<div class="profile-icon-name">CodeForces</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<img src="{{url_for('static', filename='assets/images/profile_flaticons/codeforces.svg')}}" width="80rem" height="80rem" alt="Codeforces" class="flaticon">
+										<div class="profile-icon-name">CodeForces</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- LeetCode Profile Card -->
+					<div class="col-sm-6">
+						<a href="https://leetcode.com/u/Am_Phantom_07" target="_blank">
+							<div class="single-profile profile-no-border">
+								<div class="profile-txt">
+									<img src="{{url_for('static', filename='assets/images/profile_flaticons/leetcode.svg')}}" alt="LeetCode" class="flaticon">
+									<div class="profile-icon-name">LeetCode</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<img src="{{url_for('static', filename='assets/images/profile_flaticons/leetcode.svg')}}"  width="80rem" height="80rem" alt="LeetCode" class="flaticon">
+										<div class="profile-icon-name">LeetCode</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- profiles end -->
+{% endblock %}

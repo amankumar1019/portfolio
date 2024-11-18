@@ -1,0 +1,80 @@
+{% extends "baseTemplate.html" %}
+{% block content %}		
+<!--about start -->
+<section id="about" class="about">
+    <div class="section-heading text-center">
+        <h2>about me</h2>
+    </div>
+    <div class="container">
+        <div class="about-content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="single-about-txt">
+                        <h3>
+                            I am a Software Engineer with a strong foundation in Computer Science and Engineering, and a passion for solving complex problems through technology. With a degree from the Indian Institute of Information Technology, Kota, I’ve spent the past several years honing my skills in software development, backend systems, and data optimization.
+                        </h3>
+                        <p>
+                            Outside of my professional experience, I am passionate about tackling algorithmic challenges and continuous learning. I have ranked highly in competitive coding platforms like CodeChef, LeetCode, and CodeForces. I’m always looking to learn new skills, collaborate on exciting projects, and create impactful solutions. Whether it’s through developing efficient systems or solving complex technical problems, I strive to contribute to meaningful work that makes a difference.                        
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="single-about-add-info">
+                                    <h3>email</h3>
+                                    <p>amankumar107j@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="single-about-add-info">
+                                    <h3>website</h3>
+                                    <p>www.amankumar.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-offset-1 col-sm-5">
+                    <div class="single-about-img">
+                        <img src="{{url_for('static', filename='assets/images/about/profile_image.jpg')}}" alt="profile_image">
+                        <div class="about-list-icon">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/amankumar1019">
+                                        <i  class="fa fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
+                                <li>
+                                    <a href="www.amankumar.com">
+                                        <i  class="fa fa-dribbble" aria-hidden="true"></i>
+                                    </a>
+                                    
+                                </li><!-- / li -->
+                                <li>
+                                    <a href="#">
+                                        <i  class="fa-solid fa-envelop" aria-hidden="true"></i>
+                                    </a>
+                                    
+                                </li><!-- / li -->
+                                <li>
+                                    <a href="https://www.linkedin.com/in/aman-kumar-5a6720228/">
+                                        <i  class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
+                                <li>
+                                    <a href="#">
+                                        <i  class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
+                                
+                                
+                            </ul><!-- / ul -->
+                        </div><!-- /.about-list-icon -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/.about-->
+<!--about end -->
+{% endblock %}
