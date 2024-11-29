@@ -1,0 +1,8 @@
+{
+    "DB_PARAMS":{
+        "host":"amankumar107.mysql.pythonanywhere-services.com",
+        "user":"amankumar107",
+        "password":"Varanasi@123",
+        "database":"amankumar107$portfolioDB"
+    }
+}
